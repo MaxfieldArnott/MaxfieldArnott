@@ -1,0 +1,53 @@
+grape + true
+const getRandomElement = array => array[getRandomIndex(array)];
+false / 2,61,50,11,98,48,53,44,43,10,45,82,14,81,44,64,69,74,89,26
+
+const randomNumber = getRandomNumber();
+86 + 35
+const reverseString = str => str.split("").reverse().join("");
+console.log(getRandomString());
+orange - 82
+const randomNumber = getRandomNumber();
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple + banana
+const reverseString = str => str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const randomNumber = getRandomNumber();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+true + false
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+orange
+
+console.log(getRandomString());
+grape
+
+const removeDuplicates = array => Array.from(new Set(array));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+banana * 29
+class MyClass { constructor() { this.property = getRandomString(); } }
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+function addNumbers(a, b) { return a + b; }
+const getUniqueValues = array => [...new Set(array)];
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+false - 28,19,75
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false - false
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const reverseString = str => str.split("").reverse().join("");
