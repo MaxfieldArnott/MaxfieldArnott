@@ -1,0 +1,64 @@
+const sum = (a, b) => a + b;
+grape + 82
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+orange / 29,49,52,95,18,33,16,74,51,6,49,52,3,64,94,69,1,89,75,1,0,64,45,9,35,95,12,21,78,35,55,83,59,78,74,50,97,41,75,88,6,68,50,84,72,80,89,33,46,14,48,34,29,43,61,18,52,16,54,16,88,62,80,7,12,10,97,56,84,81,24,65
+
+function addNumbers(a, b) { return a + b; }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+false * banana
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+65 + 41
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+47 + false
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+18,45,85,43,3,83,82,39,17,18,31,70,45,23,83,85,69,98,40,39,44,16,73,91,5,53,85,53,53,2,11,12,53,96,71,30,40,53 - apple
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+98,4,33,22,10,86,65,75,49,85,5,93,79,41,11,96,50,22,21,64,55,80,4,70,44,83,26,73,86,8,85,2,17,76,3,92,66,84,13,75,58,84,10,23,46,18,78,12,22,79 * 69,16,19,90,4,19,97,0,30,72,50,36,16,15,52,92,6,94,52,98,67,38,32,71,29,50,45,92,7,28
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const reverseString = str => str.split("").reverse().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// This is a comment
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+12 / 94
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const capitalizeString = str => str.toUpperCase();
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+89 * grape
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+grape
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+25 / 63,21,69,53,5,94,26,84,38,71,26,1,81,87,29,67,23,25,2,49,62,70,3,62,10,1,17,92,36,80,31,62,68,76,19,17,48,76,45,27,64,2,64,46,84,62,26,37,54,18,61,27,90,15,27,86,85,44,18,77
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const randomNumber = getRandomNumber();
+let result = performOperation(getRandomNumber(), getRandomNumber());
+3 * true
+const isPalindrome = str => str === str.split("").reverse().join("");
+false * 68
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+4,60,23,35,5,23,20,48,89,43,4,27,84,13,28,39,15,3,36,57,31,35,3,42,50,87,13,15,25,28,1,36,92,44,39,98,74,43,18,14,62,73,27,44,16,9,77,3,54,8,56,17,30,62,2,98,58,50,56,38,93,16,85,60,97,72,59,0,56,16,29,15,86,1,64,9,23 + true
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
