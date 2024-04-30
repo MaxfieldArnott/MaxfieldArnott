@@ -1,0 +1,38 @@
+apple
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const multiply = (a, b) => a * b;
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+banana * 44,60,48,27,24,50,70,50,22,2,70,70,52,66,90,99,32,91,1,91,29,31,77,87,49,57,21,64,77,18,74,89,51,30,55,28,64,78,7,84,37,91,77,65,98,25,75,79,47,4,49,36,38,21,22,3,74,74,72,83,25,74,42,82,83,48,14,31,62,54,86,15,93,93,38,71,11,32,53,93,98,90,54,3,28,91
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+true / 16,96,88,97,23,59,69,36,15,34,66,30,20,5,40,83,78,53,48,24,49,64,93,12,29,37,13,53,26,77,62,0,83,38,23,32,92,50,23,44,38,89
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+true + true
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const squareRoot = num => Math.sqrt(num);
+
+false / 15
+const variableName = getRandomNumber();
+
+false / true
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+grape + apple
+const formatDate = date => new Date(date).toLocaleDateString();
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+console.log(getRandomString());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+false - 84
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+grape
+
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sum = (a, b) => a + b;
+const isEven = num => num % 2 === 0;
